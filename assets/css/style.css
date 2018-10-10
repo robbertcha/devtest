@@ -1,0 +1,88 @@
+.user_list {
+    display:table;width:100%;border: 1px solid #ccc;margin-bottom: 25px;
+}
+
+.user_list .list_header {
+    background-color: #ddd;
+}
+
+.user_list .list_header, .user_list .list_row {
+    display:table-row;text-align:center;    line-height: 35px;
+}
+
+.user_list .list_header .header_field {
+    font-weight:700;
+}
+
+.user_list .list_header .header_field, .user_list .list_row .list_field {
+    display:table-cell;
+}
+.chart_promp {
+    position: absolute;width:200px;right:30px;top:30px;background-color: #fff;
+}
+.chart_promp_table {
+    display: flex;flex-flow: wrap;width:200px;right:30px;top:30px;background-color: #fff;border: 1px solid #ccc;
+}
+
+.chart_promp_title {
+    width: 200px;
+    text-align: center;
+    height: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    border: 1px solid #ddd;
+}
+
+.btn_close {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    border-radius: 50%;
+    border: 0px;
+    font-weight: 700;
+    background-color: #fff;
+}
+.chart_promp_table .chart_promp_row{
+    
+}
+
+.chart_promp_table  .chart_promp_cell{
+    width: 50%;text-align: center;line-height:30px;border-bottom: 1px solid #ccc;
+}
+
+.frm_users {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 30px 0px;
+}
+
+.input_search {
+    height: 25px;
+    margin-right: 10px;
+}
+
+input[type=submit] {
+    height: 32px;
+    background-color: rgb(121,189,67);
+    color: #fff;
+    padding: 0px 30px;border:0px;
+}
+
+.pagination {
+    text-align: center;
+    width: 100%;
+}
+
+.pagination strong {
+    height: 24px;
+    background-color: rgb(121,189,67);
+    color: #fff;
+    padding: 5px;
+    border: 0px;
+    margin: 0px 5px;
+}
+
+.pagination > a {
+    text-decoration: none;color: #000;
+    margin: 0px 5px;
+}
