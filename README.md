@@ -1,8 +1,9 @@
+<h2>Devtest Web</h2><br>
 Devtest Web App is a simple app build with Codeigniter(backend) & jQuery(frontend)
 
 Please follow the instructions below to make sure the site is working properly in your localhost:-
 
-Codeigniter
+<h3>Codeigniter</h3>
 1 - Create a database called 'intellipharm' & upload the intellipharm.sql (repo/) to phpmyadmin
 
 2 - Change the database details in repo/application/config/database.php
